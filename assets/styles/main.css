@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-wrapper {
+    background-color: #534061;
+}
+
+.title {
+    border: 6px solid #534061;;
+    bottom: 15rem;
+    color: #534061;
+    margin: 0 auto;
+    max-width: 65rem;
+    padding: 1rem 0;
+    position: relative;
+    text-align: center;
+}
+
+.parallax > img {
+    opacity: 0.9 !important;
+}
+
+.info-wrapper {
+    background-color: #534061;
+    color: white;
+}
