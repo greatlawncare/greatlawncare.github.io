@@ -1,15 +1,23 @@
+/* IVORY -- #ffffeb */
+/* BLOOD ORANGE -- #b80300 */
+/* LAVENDER -- #635f6d */
+/* JET -- #333234 */
+/* BLACK -- #000103 */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 .title-wrapper {
-    background-color: #534061;
+    background-color: #333234;
+    border-top: 25px solid #635f6d;
 }
 
 .title {
-    border: 6px solid #534061;;
+    border: 6px solid #ffffeb;;
     bottom: 15rem;
-    color: #534061;
+    color: #ffffeb;
+    font-weight: 300;
     margin: 0 auto;
     max-width: 65rem;
     padding: 1rem 0;
@@ -17,11 +25,12 @@ body {
     text-align: center;
 }
 
-.parallax > img {
-    opacity: 0.9 !important;
+.header-img {
+    filter: brightness(0.75);
 }
 
 .info-wrapper {
-    background-color: #534061;
+    background-color: #333234;
+    border-bottom: 4px solid #b80300;
     color: white;
 }

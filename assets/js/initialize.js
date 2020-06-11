@@ -1,4 +1,11 @@
+//on page load, execute
+document.addEventListener("load", fadeInImage());
+
 document.addEventListener('DOMContentLoaded', function() {
-    let elems = document.querySelectorAll('.parallax');
-    let instances = M.Parallax.init(elems);
-  });
+  const elems = document.querySelectorAll('.parallax');
+  M.Parallax.init(elems);
+});
+
+function fadeInImage() {
+  $(".header-img").hide().fadeIn(500);
+}
