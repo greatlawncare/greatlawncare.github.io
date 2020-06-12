@@ -7,5 +7,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function fadeInImage() {
-  $(".header-img").hide().fadeIn(1000);
+  $(".header-img").hide().fadeIn(1250);
 }

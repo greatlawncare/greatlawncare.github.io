@@ -37,12 +37,14 @@ body {
 
 @media only screen and (max-width: 993px) {
     .title {
-        margin: 0 3rem;
+        margin: 0 2rem;
     }
 }
 
 @media only screen and (max-width: 700px) {
     .title {
+        bottom: 17rem;
         font-size: 3rem;
+        padding: 1rem;
     }
 }
