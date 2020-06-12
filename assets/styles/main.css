@@ -34,3 +34,15 @@ body {
     border-bottom: 4px solid #b80300;
     color: white;
 }
+
+@media only screen and (max-width: 993px) {
+    .title {
+        margin: 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .title {
+        font-size: 3rem;
+    }
+}
